@@ -1,0 +1,20 @@
+﻿<Window x:Class="dz5_15.addingwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz5_15"
+        mc:Ignorable="d"
+        Title="Добавление записи" Height="450" Width="800">
+    <Grid>
+        <Label Content="Новый артикул" Margin="35,84,621,313" Height="37" Width="144"/>
+        <TextBox x:Name="articulBox" Margin="35,167,0,249" TextWrapping="Wrap" Text="" Width="144" Height="18" HorizontalAlignment="Left"/>
+        <Label Content="Новый размер" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Width="144" Height="37"/>
+        <TextBox x:Name="sizeBox" HorizontalAlignment="Center" Margin="0,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="144" Height="18"/>
+        <Label Content="Новая цена" HorizontalAlignment="Right" Margin="0,84,35,313" Width="144" Height="37"/>
+        <TextBox x:Name="priceBox" Margin="0,167,35,249" TextWrapping="Wrap" Text="" Width="144" Height="18" HorizontalAlignment="Right"/>
+        <Button x:Name="acceptButton" Content="Добавить" HorizontalAlignment="Left" Margin="100,291,0,0" VerticalAlignment="Top" Width="221" Click="acceptButton_Click"/>
+        <Button x:Name="denyButton" Content="Отменить" Margin="472,291,100,0" VerticalAlignment="Top" Click="denyButton_Click" Width="228"/>
+
+    </Grid>
+</Window>

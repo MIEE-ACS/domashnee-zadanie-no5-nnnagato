@@ -1,0 +1,22 @@
+﻿<Window x:Class="dz5_15.extrawindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz5_15"
+        mc:Ignorable="d"
+        Title="окно редактирования" Height="450" Width="800">
+    <Grid>
+        <Label Content="Номер записи" HorizontalAlignment="Right" Margin="0,0,618,362" VerticalAlignment="Bottom" Width="144"/>
+        <TextBox x:Name="numBox" HorizontalAlignment="Left" Margin="38,0,0,316" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="144"/>
+        <Label Content="Новый артикул" HorizontalAlignment="Right" Margin="0,0,618,263" VerticalAlignment="Bottom" Width="144"/>
+        <TextBox x:Name="articulBox" HorizontalAlignment="Left" Margin="38,0,0,217" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="144"/>
+        <Label Content="Новый размер" HorizontalAlignment="Right" Margin="0,0,400,362" VerticalAlignment="Bottom" Width="144"/>
+        <TextBox x:Name="sizeBox" HorizontalAlignment="Left" Margin="256,0,0,316" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="144"/>
+        <Label Content="Новая цена" HorizontalAlignment="Right" Margin="0,0,400,263" VerticalAlignment="Bottom" Width="144"/>
+        <TextBox x:Name="priceBox" HorizontalAlignment="Left" Margin="256,0,0,217" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="144"/>
+        <Button x:Name="acceptButton" Content="Принять изменения" HorizontalAlignment="Left" Margin="517,49,0,0" VerticalAlignment="Top" Width="221" Click="acceptButton_Click"/>
+        <Button x:Name="denyButton" Content="Отменить" HorizontalAlignment="Left" Margin="517,100,0,0" VerticalAlignment="Top" Width="221" Click="denyButton_Click"/>
+
+    </Grid>
+</Window>
